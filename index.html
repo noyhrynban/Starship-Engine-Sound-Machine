@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html manifest="sesm.manifest">
+
+<head>
+	<meta charset="UTF-8">
+	<title>SESM</title>
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!-- <meta name="apple-mobile-web-app-status-bar-style" content="black" /> -->
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<script src="sesm.js"></script>
+	<style>
+		body {
+			/*			overflow: auto;*/
+		}
+
+		.mybackground {
+			/* image taken from http://robby-robert.deviantart.com/art/Enterprise-D-377602626 */
+			background-image: url('enterprise_d_by_robby_robert-d68tc1u.jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: absolute;
+			transition: filter .5s linear;
+			transition: -webkit-filter .5s linear;
+		}
+
+		.toprightbox {
+			/*			width:100px;*/
+			padding: 5px;
+			border: 1px solid black;
+			background-color: rgba(255, 255, 255, 0.6);
+			position: fixed;
+			right: 5px;
+			top: 5px;
+		}
+	</style>
+	<style id="desaturatedStyle">
+		.mybackground {
+			filter: grayscale(1);
+			-webkit-filter: grayscale(1);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="mybackground desaturated" onclick="playPauseButtonClick()"></div>
+	<div class="toprightbox">
+		Starship Engine Sound Machine
+	</div>
+</body>
+
+</html>
