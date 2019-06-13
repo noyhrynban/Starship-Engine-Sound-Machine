@@ -2,4 +2,4 @@ Inspired by the "Make it so!" generated in the Clementine player, I wanted to se
 
 I went the extra mile to figure out all of the extra assets and such to make this work as a Web Application on iOS.
 
-To try it out click the image after going here: https://ryanharper.net/Starship-Engine-Sound-Machine/
+To try it out simply click the image after going here: https://ryanharper.net/Starship-Engine-Sound-Machine/
